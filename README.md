@@ -74,7 +74,7 @@ O **Hub de Leitura API** é uma API REST de gestão de biblioteca desenvolvida e
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/fabioaraujoqa/hub-de-leitura-api.git
+git clone https://github.com/EBAC-QE/hub-de-leitura-api.git
 cd hub-de-leitura-api
 ```
 
@@ -162,10 +162,8 @@ npm start
 ### Erro "Port 3000 already in use"
 
 ```bash
-# Encontrar processo usando a porta
-lsof -ti:3000
-# Finalizar processo
-kill -9 PID_DO_PROCESSO
+# Rode numa porta diferente, por exemplo, porta 3001
+PORT=3001 npm start
 ```
 
 ### Token expirado
@@ -216,8 +214,8 @@ Desenvolvido com ❤️ para a comunidade de **Quality Assurance**.
 **Contribuidores:**
 
 - Fábio Araújo
-    - [Repositório](https://github.com/fabioaraujoqa)
-    - [Linkedin](https://www.linkedin.com/in/fabio10/)
+   - [Repositório](https://github.com/fabioaraujoqa)
+   - [Linkedin](https://www.linkedin.com/in/fabio10/)
 
 ---
 
